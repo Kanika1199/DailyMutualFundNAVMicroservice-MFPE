@@ -13,8 +13,8 @@ spec:
         app: DailyMutualFundNAVMicroservice
     spec:
       containers:
-      - name: dailymutualfundnavmicroservicerepos
-        image: myportfoliomanagementcr.azurecr.io/dnrepos2:latest
+      - name: dnrepos2
+        image: portfoliomanagementcr.azurecr.io/dnrepos2:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
